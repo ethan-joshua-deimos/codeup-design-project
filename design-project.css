@@ -1,7 +1,9 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 h1 h2 h3 h4 h5 {
     font-family: 'Anton', sans-serif;
 }
@@ -15,6 +17,9 @@ p {
 }
 .container {
     background-color: #F0F0F0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
 h1 {
     font-size: 64px;
@@ -30,4 +35,9 @@ h4 {
 }
 h5 {
     font-size: 28px;
+}
+#design-circle {
+    background-color: #E6563E;
+    width: 105px;
+    height: 105px;
 }
