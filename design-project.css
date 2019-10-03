@@ -119,6 +119,14 @@ li {
     transform: translate(-50%, -50%);
 
 }
+#smallNavBar1 {
+    width: 30%;
+    padding-top: 3.5%;
+}
+#smallNavBar2 {
+    width: 30%;
+    padding-top: 3.5%;
+}
 #header {
     font-size: 2.8em;
 }
@@ -192,18 +200,6 @@ li {
     border-radius: 2%;
     margin: 0 10%;
 }
-.appleIpadSM {
-    width: 80%;
-    border: 6px solid #E6E6E6;
-    border-radius: 2%;
-    margin: 0 10%;
-}
-.macbookSM {
-    width: 80%;
-    border: 6px solid #E6E6E6;
-    border-radius: 2%;
-    margin: 0 10%;
-}
 #smallCircleXSDiv {
     width: 40%;
 }
@@ -224,13 +220,45 @@ li {
 
 /* ALL SMALL THIRD ROW*/
 
-
+.appleIpadSM {
+    width: 80%;
+    border: 6px solid #E6E6E6;
+    border-radius: 2%;
+    margin: 0 10%;
+}
+.macbookSM {
+    width: 80%;
+    border: 6px solid #E6E6E6;
+    border-radius: 2%;
+    margin: 0 10%;
+}
+.manSM {
+    width: 80%;
+    border: 6px solid #E6E6E6;
+    border-radius: 2%;
+    margin: 0 10%;
+}
+.securitySM {
+    width: 80%;
+    border: 6px solid #E6E6E6;
+    border-radius: 2%;
+    margin: 0 10%;
+}
 #smallCircleSmallDiv1 {
     width: 100%;
     padding-right: 13%;
 }
 #smallCircleSmallDiv2 {
-    /*width: 40%;*/
+    width: 100%;
+    padding-right: 13%;
+}
+#smallCircleSmallDiv3 {
+    width: 100%;
+    padding-right: 13%;
+}
+#smallCircleSmallDiv4 {
+    width: 100%;
+    padding-right: 13%;
 }
 #smallCirclesSmall1{
     width: 85%;
@@ -240,7 +268,42 @@ li {
     width: 85%;
     margin-top: 4px;
 }
+#smallCirclesSmall3{
+    width: 85%;
+    margin-top: 4px;
+}
+#smallCirclesSmall4 {
+    width: 85%;
+    margin-top: 4px;
+}
+#imageTextSM1 {
+    font-size: .8em;
+    margin: .25em 0 1.8em 0;
+}
+#imageTextSM2 {
+    font-size: .8em;
+    margin: .25em 0 1.8em 0;
+}
+#imageTextSM3 {
+    font-size: .8em;
+    margin: .25em 0 1.8em 0;
+}
+#imageTextSM4 {
+    font-size: .8em;
+    margin: .25em 0 1.8em 0;
+}
 .smallCircleSmallPad {
     margin: 0 2px;
 }
-
+#featuredSM1 {
+    padding-left: 7%;
+}
+#featuredSM2 {
+    padding-left: 7%;
+}
+#featuredSM3 {
+    padding-left: 7%;
+}
+#featuredSM4 {
+    padding-left: 7%;
+}

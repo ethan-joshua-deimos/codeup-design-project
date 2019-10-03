@@ -1,12 +1,13 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <meta lang="en"/>
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title><!-- TODO: put your title here --></title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <!-- Your custom styles go here -->
     <link rel="stylesheet" href="design-project.css">
     <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
@@ -15,130 +16,159 @@
 <body>
 
 <!--THIS IS THE MAIN CONTENT CONTAINER-->
-    <div class="container">
-        <div class="row rowOne">
-            <div class="col-12 bg-white whiteBar"></div>
-            <div class="col-12 text-center">
-                <span class="rounded-circle bg-circle"></span>
-                <img id="logo" src="./assets/logo.jpg" alt="logo">
-            </div>
-            <div class="col-12">
-                <p id="header" class="text-center">codeup design</p>
-            </div>
+<div class="container">
+    <div class="row rowOne">
+        <div class="col-12 bg-white whiteBar"></div>
+        <div class="col-12 d-flex justify-content-center align-items-center">
+            <span class="rounded-circle bg-circle"></span>
 
-<!--            MOBILE NAV BAR GOES HERE-->
-            <div class="navBar col-12 d-block d-sm-none text-center">
-                <ul class="navFlex d-flex justify-content-around">
-                    <li><a href="">SERVICES</a></li>
-                    <li><a href="">WORK</a></li>
-                    <li><a href="">BLOG</a></li>
-                    <li><a href="">CONTACT</a></li>
-                </ul>
+            <!-- SMALL NAV BAR 1 -->
+            <span id="smallNavBar1" class="d-none d-sm-block d-md-none">
+                    <ul class="d-flex justify-content-around align-items-center">
+                        <li><a href="">SERVICES</a></li>
+                        <li><a href="">WORK</a></li>
+                    </ul>
+                </span>
 
-            </div>
+            <!-- TOP LOGO -->
 
+            <img id="logo" src="./assets/logo.jpg" alt="logo">
+
+            <!-- SMALL NAV BAR 2 -->
+
+            <span id="smallNavBar2" class="d-none d-sm-block d-md-none">
+                    <ul class="d-flex justify-content-around align-items-center">
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </span>
+
+        </div>
+        <div class="col-12">
+            <p id="header" class="text-center">codeup design</p>
+        </div>
+
+        <!--            MOBILE NAV BAR GOES HERE-->
+        <div class="navBar col-12 d-block d-sm-none text-center">
+            <ul class="navFlex d-flex justify-content-around">
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">WORK</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
 
         </div>
 
-        <!-- Begin second row; contains EXTRA SMALL VISUAL DESIGN & WEB DEVELOPMENT -->
 
-        <div class="row no-gutters rowTwo">
-            <div class="col-12 d-block d-sm-none text-center">
-                <h2 class="anton">VISUAL DESIGN & </h2>
-            </div>
-            <div class="col-12 d-block d-sm-none text-center">
-                <h2 class="anton">WEB DEVELOPMENT</h2>
-            </div>
+    </div>
 
-         <!-- Small VISUAL DESIGN & WEB DEVEPMENT -->
+    <!-- Begin second row; contains EXTRA SMALL VISUAL DESIGN & WEB DEVELOPMENT -->
 
-            <div class="d-none d-sm-block col-sm-12 text-center">
-                <h3 class="anton">VISUAL DESIGN & WEB DEVELOPMENT</h3>
-            </div>
-
-         <!-- LOCATION - PARK CITY UTAH -->
-            <div class="col-12 text-center anton">
-                <h4 class="fromUtah">FROM PARK CITY, UTAH</h4>
-            </div>
-
-            <!-- This begins the four circles for EXTRA SMALL-->
-
-            <div class="col-6 d-block d-sm-none">
-                <h5 class="rounded-circle ml-auto anton d-flex justify-content-center align-items-center circleRed design xsCircle">DESIGN</h5>
-            </div>
-            <div  class="col-6 d-block d-sm-none">
-                <h5 class="rounded-circle anton d-flex justify-content-center align-items-center circleOrange develop xsCircle">DEVELOP</h5>
-            </div>
-            <div  class="col-6 d-block d-sm-none">
-                <h5 class="rounded-circle ml-auto anton d-flex justify-content-center align-items-center circleGreen support xsCircle">SUPPORT</h5>
-            </div>
-            <div  class="col-6 d-block d-sm-none">
-                <h5 class="rounded-circle mr-auto anton d-flex justify-content-center align-items-center circleBlue host xsCircle">HOST</h5>
-            </div>
-
-            <!-- This begings the four circles for SMALL -->
-
-            <div class="d-flex justify-content-center smlCircleBox">
-                <div class="col-sm-3 d-none d-sm-block">
-                    <h5 class="rounded-circle anton d-flex justify-content-center align-items-center circleRed design smCircle">DESIGN</h5>
-                </div>
-                <div  class="col-sm-3 d-none d-sm-block">
-                    <h5 class="rounded-circle anton d-flex justify-content-center align-items-center circleOrange develop smCircle">DEVELOP</h5>
-                </div>
-                <div  class="col-sm-3 d-none d-sm-block">
-                    <h5 class="rounded-circle anton d-flex justify-content-center align-items-center circleGreen support smCircle">SUPPORT</h5>
-                </div>
-                <div  class="col-sm-3 d-none d-sm-block">
-                    <h5 class="rounded-circle anton d-flex justify-content-center align-items-center circleBlue host smCircle">HOST</h5>
-                </div>
-                </div>
-            </div>
-
-        <!-- Line across screen -->
-        <div class="d-flex justify-content-center">
-             <hr class="line d-none d-sm-block">
+    <div class="row no-gutters rowTwo">
+        <div class="col-12 d-block d-sm-none text-center">
+            <h2 class="anton">VISUAL DESIGN & </h2>
         </div>
-<!--        STARTS SELECTED WORK AND IMAGES ROW-->
+        <div class="col-12 d-block d-sm-none text-center">
+            <h2 class="anton">WEB DEVELOPMENT</h2>
+        </div>
 
-        <div class="row rowThree rowThreeXS rowThreeSM">
-            <div class="col-12">
-                <p class="text-center imageText">SELECTED WORK</p>
+        <!-- Small VISUAL DESIGN & WEB DEVEPMENT -->
+
+        <div class="d-none d-sm-block col-sm-12 text-center">
+            <h3 class="anton">VISUAL DESIGN & WEB DEVELOPMENT</h3>
+        </div>
+
+        <!-- LOCATION - PARK CITY UTAH -->
+        <div class="col-12 text-center anton">
+            <h4 class="fromUtah">FROM PARK CITY, UTAH</h4>
+        </div>
+
+        <!-- This begins the four circles for EXTRA SMALL-->
+
+        <div class="col-6 d-block d-sm-none">
+            <h5 class="rounded-circle ml-auto anton d-flex justify-content-center align-items-center circleRed design xsCircle">
+                DESIGN</h5>
+        </div>
+        <div class="col-6 d-block d-sm-none">
+            <h5 class="rounded-circle anton d-flex justify-content-center align-items-center circleOrange develop xsCircle">
+                DEVELOP</h5>
+        </div>
+        <div class="col-6 d-block d-sm-none">
+            <h5 class="rounded-circle ml-auto anton d-flex justify-content-center align-items-center circleGreen support xsCircle">
+                SUPPORT</h5>
+        </div>
+        <div class="col-6 d-block d-sm-none">
+            <h5 class="rounded-circle mr-auto anton d-flex justify-content-center align-items-center circleBlue host xsCircle">
+                HOST</h5>
+        </div>
+
+        <!-- This begings the four circles for SMALL -->
+
+        <div class="d-flex justify-content-center smlCircleBox">
+            <div class="col-sm-3 d-none d-sm-block">
+                <h5 class="rounded-circle anton d-flex justify-content-center align-items-center circleRed design smCircle">
+                    DESIGN</h5>
             </div>
-            <!--            APPLE IPAD XS-->
-            <div class="col-12 col-sm-6 text-center d-block d-sm-none">
-                <img src="./assets/images/apple-ipad.jpg" alt="apple" id="appleIpadXS">
+            <div class="col-sm-3 d-none d-sm-block">
+                <h5 class="rounded-circle anton d-flex justify-content-center align-items-center circleOrange develop smCircle">
+                    DEVELOP</h5>
             </div>
-            <div class="col-6 d-block d-sm-none" id="featuredXS">
-                <p id="imageTextXS">FEATURED PROJECT</p>
+            <div class="col-sm-3 d-none d-sm-block">
+                <h5 class="rounded-circle anton d-flex justify-content-center align-items-center circleGreen support smCircle">
+                    SUPPORT</h5>
             </div>
-            <div class="d-block d-sm-none" id="smallCircleXSDiv">
-                <div class="col-6 d-flex justify-content-end">
+            <div class="col-sm-3 d-none d-sm-block">
+                <h5 class="rounded-circle anton d-flex justify-content-center align-items-center circleBlue host smCircle">
+                    HOST</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Line across screen -->
+    <div class="d-flex justify-content-center">
+        <hr class="line d-none d-sm-block">
+    </div>
+    <!--        STARTS SELECTED WORK AND IMAGES ROW-->
+
+    <div class="row rowThree rowThreeXS rowThreeSM">
+        <div class="col-12">
+            <p class="text-center imageText">SELECTED WORK</p>
+        </div>
+        <!--            APPLE IPAD XS-->
+        <div class="col-12 col-sm-6 text-center d-block d-sm-none">
+            <img src="./assets/images/apple-ipad.jpg" alt="apple" id="appleIpadXS">
+        </div>
+        <div class="col-6 d-block d-sm-none" id="featuredXS">
+            <p id="imageTextXS">FEATURED PROJECT</p>
+        </div>
+        <div class="d-block d-sm-none" id="smallCircleXSDiv">
+            <div class="col-6 d-flex justify-content-end">
                    <span class="d-flex justify-content-end" id="smallCirclesXS">
                        <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleRed smallCircleXSPad">D</h6>
                        <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleOrange smallCircleXSPad">D</h6>
                        <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleGreen smallCircleXSPad">S</h6>
                        <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleBlue smallCircleXSPad">H</h6>
                    </span>
-                </div>
             </div>
+        </div>
 
 
-            <!--            IMAGE GROUP BOX 1 APPLE IPAD/MACBOOK SM-->
+        <!--            IMAGE GROUP BOX 1 APPLE IPAD/MACBOOK SM-->
 
-            <div class="col-sm-6 text-center d-none d-sm-block d-md-none">
-                <img src="./assets/images/apple-ipad.jpg" alt="apple" class="appleIpadSM">
-            </div>
-            <div class="col-sm-6 text-center d-none d-sm-block d-md-none">
-                <img src="./assets/images/macbook.jpg" alt="apple" class="macbookSM">
-            </div>
+        <div class="col-sm-6 text-center d-none d-sm-block d-md-none">
+            <img src="./assets/images/apple-ipad.jpg" alt="apple" class="appleIpadSM">
+        </div>
+        <div class="col-sm-6 text-center d-none d-sm-block d-md-none">
+            <img src="./assets/images/macbook.jpg" alt="apple" class="macbookSM">
+        </div>
 
-<!--            IMAGES GROUP FEATURES BOX 1-->
+        <!--            IMAGES GROUP FEATURES BOX 1-->
 
-            <div class="col-3 d-none d-sm-block d-md-none">
-                <p class="imageTextSM">FEATURED PROJECT</p>
-            </div>
-            <div class="col-3 d-none d-sm-block d-md-none">
-                <div class=" d-flex justify-content-end" id="smallCircleSmallDiv1">
+        <div class="col-3 d-none d-sm-block d-md-none" id="featuredSM1">
+            <p id="imageTextSM1">FEATURED PROJECT</p>
+        </div>
+        <div class="col-3 d-none d-sm-block d-md-none">
+            <div class=" d-flex justify-content-end" id="smallCircleSmallDiv1">
                    <span class="d-none d-sm-block d-md-none">
                        <span class="d-flex justify-content-between" id="smallCirclesSmall1">
                            <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleRed smallCircleSmallPad">D</h6>
@@ -147,40 +177,88 @@
                            <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleBlue smallCircleSmallPad">H</h6>
                        </span>
                    </span>
-                </div>
             </div>
+        </div>
 
-<!--            IMAGES GROUP FEATURES BOX 2-->
+        <!--            IMAGES GROUP FEATURES BOX 2-->
 
-            <div class="col-3 d-none d-sm-block d-md-none">
-                <p class="imageText">FEATURED PROJECT</p>
-            </div>
-            <div class="col-3 d-none d-sm-block d-md-none">
-                <div class="d-flex justify-content-end" id="smallCircleSmallDiv2">
+        <div class="col-3 d-none d-sm-block d-md-none" id="featuredSM2">
+            <p id="imageTextSM2">FEATURED PROJECT</p>
+        </div>
+        <div class="col-3 d-none d-sm-block d-md-none">
+            <div class="d-flex justify-content-end" id="smallCircleSmallDiv2">
                    <span class="d-none d-sm-block d-md-none">
-                       <span class="d-flex justify-content-end"  id="smallCirclesSmall2">
+                       <span class="d-flex justify-content-end" id="smallCirclesSmall2">
                            <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleRed smallCircleSmallPad">D</h6>
                            <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleOrange smallCircleSmallPad">D</h6>
                            <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleGreen smallCircleSmallPad">S</h6>
                            <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleBlue smallCircleSmallPad">H</h6>
                        </span>
                    </span>
-                </div>
             </div>
-
-
         </div>
+
+        <!--            IMAGE GROUP BOX 2 MAN AND SECURITY -->
+
+        <div class="col-sm-6 text-center d-none d-sm-block d-md-none">
+            <img src="./assets/images/man.jpg" alt="man" class="manSM">
+        </div>
+        <div class="col-sm-6 text-center d-none d-sm-block d-md-none">
+            <img src="./assets/images/security.jpg" alt="security" class="securitySM">
+        </div>
+
+        <!--           IMAGE GROUP FEATURES BOX 3   -->
+
+        <div class="col-3 d-none d-sm-block d-md-none" id="featuredSM3">
+            <p id="imageTextSM3">FEATURED PROJECT</p>
+        </div>
+        <div class="col-3 d-none d-sm-block d-md-none">
+            <div class="d-flex justify-content-end" id="smallCircleSmallDiv3">
+                   <span class="d-none d-sm-block d-md-none">
+                       <span class="d-flex justify-content-end" id="smallCirclesSmall3">
+                           <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleRed smallCircleSmallPad">D</h6>
+                           <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleOrange smallCircleSmallPad">D</h6>
+                           <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleGreen smallCircleSmallPad">S</h6>
+                           <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleBlue smallCircleSmallPad">H</h6>
+                       </span>
+                   </span>
+            </div>
+        </div>
+
+        <!-- IMAGE GROUP FEATURES BOX 4 -->
+
+        <div class="col-3 d-none d-sm-block d-md-none" id="featuredSM4">
+            <p id="imageTextSM4">FEATURED PROJECT</p>
+        </div>
+        <div class="col-3 d-none d-sm-block d-md-none">
+            <div class="d-flex justify-content-end" id="smallCircleSmallDiv4">
+                   <span class="d-none d-sm-block d-md-none">
+                       <span class="d-flex justify-content-end" id="smallCirclesSmall4">
+                           <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleRed smallCircleSmallPad">D</h6>
+                           <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleOrange smallCircleSmallPad">D</h6>
+                           <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleGreen smallCircleSmallPad">S</h6>
+                           <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleBlue smallCircleSmallPad">H</h6>
+                       </span>
+                   </span>
+            </div>
+        </div>
+
+
     </div>
-
-
-
+</div>
 
 
 <!-- Main page content -->
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
 <!-- Your custom JS goes here -->
 </body>
 </html>
