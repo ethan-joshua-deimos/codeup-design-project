@@ -50,6 +50,10 @@ li {
     padding: 0;
     max-width: 125px;
 }
+.col-6 {
+    max-width: none;
+    padding: 0;
+}
 .container {
     background-color: #F0F0F0;
     width: 100%;
@@ -180,7 +184,7 @@ li {
     margin-top: 17px
 }
 
-
+/* ALL XS THIRD ROW */
 
 #appleIpadXS {
     width: 80%;
@@ -188,18 +192,55 @@ li {
     border-radius: 2%;
     margin: 0 10%;
 }
-#appleIpadSM {
+.appleIpadSM {
     width: 80%;
     border: 6px solid #E6E6E6;
     border-radius: 2%;
     margin: 0 10%;
 }
-.smallCircles {
+.macbookSM {
+    width: 80%;
+    border: 6px solid #E6E6E6;
+    border-radius: 2%;
+    margin: 0 10%;
+}
+#smallCircleXSDiv {
+    width: 40%;
+}
+#smallCirclesXS {
     width: 85%;
     margin-top: 4px;
 }
-.imageText {
+#imageTextXS {
     font-size: .8em;
     margin: .25em 0 1.8em 0;
+}
+.smallCircleXSPad{
+    margin: 0 2px;
+}
+#featuredXS {
+    padding-left: 10%;
+}
+
+/* ALL SMALL THIRD ROW*/
+
+
+#smallCircleSmallDiv1 {
+    width: 100%;
+    padding-right: 13%;
+}
+#smallCircleSmallDiv2 {
+    /*width: 40%;*/
+}
+#smallCirclesSmall1{
+    width: 85%;
+    margin-top: 4px;
+}
+#smallCirclesSmall2 {
+    width: 85%;
+    margin-top: 4px;
+}
+.smallCircleSmallPad {
+    margin: 0 2px;
 }
 
