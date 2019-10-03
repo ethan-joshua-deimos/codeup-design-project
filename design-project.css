@@ -1,28 +1,15 @@
+/* ELEMENTS AND FONT BELOW*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.anton {
-    font-family: 'Anton', sans-serif;
 }
 h1 h2 h3 h4 h5 {
     font-family: 'Anton', sans-serif;
 }
 p {
     font-family: 'Abel', sans-serif;
-}
-#logo {
-    width: 105px;
-    height: 105px;
-    mix-blend-mode: multiply;
-}
-.container {
-    background-color: #F0F0F0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    padding: 0;
 }
 h1 {
     font-size: 64px;
@@ -40,8 +27,88 @@ h5 {
     font-size: 28px;
     color: white;
 }
-h5 {
+h6 {
+    font-size: .65em;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+    font-family: 'Abel', sans-serif;
+}
+.anton {
+    font-family: 'Anton', sans-serif;
+}
 
+/*GLOBALS BELOW*/
+
+.container {
+    background-color: #F0F0F0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+}
+.rowOne {
+    margin-bottom: 5em;
+}
+.rowTwo {
+
+}
+.rowThree {
+    margin: 96px 10% 0 10%;
+}
+
+/*CIRCLES AND ICONS BELOW*/
+
+
+.circleRed {
+    background-color: #E6563E;
+    height: 18px;
+    width: 18px;
+}
+.circleOrange {
+    background-color: #EB9D3A;
+    height: 18px;
+    width: 18px;
+}
+.circleGreen {
+    background-color: #7CB06C;
+    height: 18px;
+    width: 18px;
+}
+.circleBlue {
+    background-color: #00ABA9;
+    height: 18px;
+    width: 18px;
+}
+
+/* FIRST ROW BELOW*/
+
+#logo {
+    width: 105px;
+    height: 105px;
+    mix-blend-mode: multiply;
+}
+
+.whiteBar {
+    width: 100%;
+    height: 55px;
+
+}
+#header {
+    font-size: 2.8em;
+}
+.navFlex {
+    margin: 0 10%;
+}
+
+/*SECOND ROW BELOW*/
+
+.fromUtah {
+    margin: 2em 0;
 }
 #design {
     width: 115px;
@@ -64,37 +131,20 @@ h5 {
     height: 115px;
     border: 8px solid white;
 }
-#header {
-   font-size: 2.8em;
-}
-.numberThree {
-    margin-top: 100px;
-}
+
+/*THIRD ROW BELOW*/
+
 #appleIpad {
-    width: 80%;
+    width: 100%;
     border: 6px solid #E6E6E6;
     border-radius: 2%;
 }
-.circleRed {
-    background-color: #E6563E;
-    height: 18px;
-    width: 18px;
-}
-.circleOrange {
-    background-color: #EB9D3A;
-    height: 18px;
-    width: 18px;
-}
-.circleGreen {
-    background-color: #7CB06C;
-    height: 18px;
-    width: 18px;
-}
-.circleBlue {
-    background-color: #00ABA9;
-    height: 18px;
-    width: 18px;
-}
 #smallCircles {
-    width: 50%;
+    width: 85%;
+    margin-top: 4px;
 }
+.imageText {
+    font-size: .8em;
+    margin: .25em 0 1.8em 0;
+}
+
