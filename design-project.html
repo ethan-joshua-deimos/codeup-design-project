@@ -42,7 +42,7 @@
 
         <!-- Begin second row; contains EXTRA SMALL VISUAL DESIGN & WEB DEVELOPMENT -->
 
-        <div class="row rowTwo">
+        <div class="row no-gutters rowTwo">
             <div class="col-12 d-block d-sm-none text-center">
                 <h2 class="anton">VISUAL DESIGN & </h2>
             </div>
@@ -64,56 +64,81 @@
             <!-- This begins the four circles for EXTRA SMALL-->
 
             <div class="col-6 d-block d-sm-none">
-                <h5 class="rounded-circle ml-auto anton d-flex justify-content-center align-items-center circleRed design">DESIGN</h5>
+                <h5 class="rounded-circle ml-auto anton d-flex justify-content-center align-items-center circleRed design xsCircle">DESIGN</h5>
             </div>
             <div  class="col-6 d-block d-sm-none">
-                <h5 class="rounded-circle anton d-flex justify-content-center align-items-center circleOrange develop">DEVELOP</h5>
+                <h5 class="rounded-circle anton d-flex justify-content-center align-items-center circleOrange develop xsCircle">DEVELOP</h5>
             </div>
             <div  class="col-6 d-block d-sm-none">
-                <h5 class="rounded-circle ml-auto anton d-flex justify-content-center align-items-center circleGreen support">SUPPORT</h5>
+                <h5 class="rounded-circle ml-auto anton d-flex justify-content-center align-items-center circleGreen support xsCircle">SUPPORT</h5>
             </div>
             <div  class="col-6 d-block d-sm-none">
-                <h5 class="rounded-circle mr-auto anton d-flex justify-content-center align-items-center circleBlue host">HOST</h5>
+                <h5 class="rounded-circle mr-auto anton d-flex justify-content-center align-items-center circleBlue host xsCircle">HOST</h5>
             </div>
 
             <!-- This begings the four circles for SMALL -->
 
-            <div class="col-sm-3 d-none d-sm-block">
-                <h5 class="rounded-circle ml-auto anton d-flex justify-content-center align-items-center circleRed design">DESIGN</h5>
+            <div class="d-flex justify-content-center smlCircleBox">
+                <div class="col-sm-3 d-none d-sm-block">
+                    <h5 class="rounded-circle anton d-flex justify-content-center align-items-center circleRed design smCircle">DESIGN</h5>
+                </div>
+                <div  class="col-sm-3 d-none d-sm-block">
+                    <h5 class="rounded-circle anton d-flex justify-content-center align-items-center circleOrange develop smCircle">DEVELOP</h5>
+                </div>
+                <div  class="col-sm-3 d-none d-sm-block">
+                    <h5 class="rounded-circle anton d-flex justify-content-center align-items-center circleGreen support smCircle">SUPPORT</h5>
+                </div>
+                <div  class="col-sm-3 d-none d-sm-block">
+                    <h5 class="rounded-circle anton d-flex justify-content-center align-items-center circleBlue host smCircle">HOST</h5>
+                </div>
+                </div>
             </div>
-            <div  class="col-sm-3 d-none d-sm-block">
-                <h5 class="rounded-circle anton d-flex justify-content-center align-items-center circleOrange develop">DEVELOP</h5>
-            </div>
-            <div  class="col-sm-3 d-none d-sm-block">
-                <h5 class="rounded-circle ml-auto anton d-flex justify-content-center align-items-center circleGreen support">SUPPORT</h5>
-            </div>
-            <div  class="col-sm-3 d-none d-sm-block">
-                <h5 class="rounded-circle mr-auto anton d-flex justify-content-center align-items-center circleBlue host">HOST</h5>
-            </div>
-        </div>
 
         <!-- Line across screen -->
-
-        <hr class="line d-none d-sm-block">
-
+        <div class="d-flex justify-content-center">
+             <hr class="line d-none d-sm-block">
+        </div>
 <!--        STARTS SELECTED WORK AND IMAGES ROW-->
 
-        <div class="row rowThree">
+        <div class="row rowThree rowThreeXS rowThreeSM">
             <div class="col-12">
                 <p class="text-center imageText">SELECTED WORK</p>
             </div>
-            <div class="col-12 text-center">
-                <img src="./assets/images/apple-ipad.jpg" alt="apple" id="appleIpad">
+
+<!--            APPLE IPAD XS-->
+
+           <div class="col-12 col-sm-6 d-block d-sm-none text-center">
+                <img src="./assets/images/apple-ipad.jpg" alt="apple" id="appleIpadXS">
             </div>
-            <div class="col-6">
+            <div class="col-6 d-block d-sm-none">
                 <p class="imageText">FEATURED PROJECT</p>
             </div>
             <div class="col-6 d-flex justify-content-end">
-                <span id="smallCircles" class="d-flex justify-content-between">
+                <span class="smallCircles d-block d-sm-none d-flex justify-content-between">
                     <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleRed">D</h6>
                     <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleOrange">D</h6>
                     <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleGreen">S</h6>
                     <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleBlue">H</h6>
+                </span>
+            </div>
+
+
+
+<!--            IMAGE GROUP BOX 1 APPLE IPAD SM-->
+            <div class="col-sm-6 text-center d-none d-sm-block d-md-none">
+                <img src="./assets/images/apple-ipad.jpg" alt="apple" id="appleIpadSM">
+            </div>
+            <div class="col-6 d-none d-sm-block d-md-none">
+                <p class="imageText">FEATURED PROJECT</p>
+            </div>
+            <div class="col-6 d-flex justify-content-end">
+                <span class="d-none d-sm-block d-md-none">
+                    <span class="smallCircles d-flex justify-content-between ">
+                        <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleRed">D</h6>
+                        <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleOrange">D</h6>
+                        <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleGreen">S</h6>
+                        <h6 class="rounded-circle anton d-flex justify-content-center align-items-center circleBlue">H</h6>
+                    </span>
                 </span>
             </div>
 
