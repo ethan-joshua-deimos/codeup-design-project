@@ -19,13 +19,15 @@
         <div class="row rowOne">
             <div class="col-12 bg-white whiteBar"></div>
             <div class="col-12 text-center">
+                <span class="rounded-circle bg-circle"></span>
                 <img id="logo" src="./assets/logo.jpg" alt="logo">
             </div>
             <div class="col-12">
                 <p id="header" class="text-center">codeup design</p>
             </div>
+
 <!--            MOBILE NAV BAR GOES HERE-->
-            <div class="navBar col-12 text-center">
+            <div class="navBar col-12 d-block d-sm-none text-center">
                 <ul class="navFlex d-flex justify-content-around">
                     <li><a href="">SERVICES</a></li>
                     <li><a href="">WORK</a></li>
@@ -38,34 +40,61 @@
 
         </div>
 
-        <!-- Begin second row; contains VISUAL DESIGN & WEB DEVELOPMENT + LOCATION -->
+        <!-- Begin second row; contains EXTRA SMALL VISUAL DESIGN & WEB DEVELOPMENT -->
 
         <div class="row rowTwo">
-            <div class="col-12 text-center">
+            <div class="col-12 d-block d-sm-none text-center">
                 <h2 class="anton">VISUAL DESIGN & </h2>
             </div>
-            <div class="col-12 text-center">
+            <div class="col-12 d-block d-sm-none text-center">
                 <h2 class="anton">WEB DEVELOPMENT</h2>
             </div>
+
+         <!-- Small VISUAL DESIGN & WEB DEVEPMENT -->
+
+            <div class="d-none d-sm-block col-sm-12 text-center">
+                <h3 class="anton">VISUAL DESIGN & WEB DEVELOPMENT</h3>
+            </div>
+
+         <!-- LOCATION - PARK CITY UTAH -->
             <div class="col-12 text-center anton">
                 <h4 class="fromUtah">FROM PARK CITY, UTAH</h4>
             </div>
 
-            <!-- This begins the four circles -->
+            <!-- This begins the four circles for EXTRA SMALL-->
 
-            <div class="col-6 d-flex justify-content-center align-items-center">
-                <h5 id="design" class="rounded-circle ml-auto anton d-flex justify-content-center align-items-center circleRed">DESIGN</h5>
+            <div class="col-6 d-block d-sm-none">
+                <h5 class="rounded-circle ml-auto anton d-flex justify-content-center align-items-center circleRed design">DESIGN</h5>
             </div>
-            <div  class="col-6">
-                <h5 id="develop" class="rounded-circle anton d-flex justify-content-center align-items-center circleOrange">DEVELOP</h5>
+            <div  class="col-6 d-block d-sm-none">
+                <h5 class="rounded-circle anton d-flex justify-content-center align-items-center circleOrange develop">DEVELOP</h5>
             </div>
-            <div  class="col-6">
-                <h5 id="support" class="rounded-circle ml-auto anton d-flex justify-content-center align-items-center circleGreen">SUPPORT</h5>
+            <div  class="col-6 d-block d-sm-none">
+                <h5 class="rounded-circle ml-auto anton d-flex justify-content-center align-items-center circleGreen support">SUPPORT</h5>
             </div>
-            <div  class="col-6">
-                <h5 id="host" class="rounded-circle mr-auto anton d-flex justify-content-center align-items-center circleBlue">HOST</h5>
+            <div  class="col-6 d-block d-sm-none">
+                <h5 class="rounded-circle mr-auto anton d-flex justify-content-center align-items-center circleBlue host">HOST</h5>
+            </div>
+
+            <!-- This begings the four circles for SMALL -->
+
+            <div class="col-sm-3 d-none d-sm-block">
+                <h5 class="rounded-circle ml-auto anton d-flex justify-content-center align-items-center circleRed design">DESIGN</h5>
+            </div>
+            <div  class="col-sm-3 d-none d-sm-block">
+                <h5 class="rounded-circle anton d-flex justify-content-center align-items-center circleOrange develop">DEVELOP</h5>
+            </div>
+            <div  class="col-sm-3 d-none d-sm-block">
+                <h5 class="rounded-circle ml-auto anton d-flex justify-content-center align-items-center circleGreen support">SUPPORT</h5>
+            </div>
+            <div  class="col-sm-3 d-none d-sm-block">
+                <h5 class="rounded-circle mr-auto anton d-flex justify-content-center align-items-center circleBlue host">HOST</h5>
             </div>
         </div>
+
+        <!-- Line across screen -->
+
+        <hr class="line d-none d-sm-block">
 
 <!--        STARTS SELECTED WORK AND IMAGES ROW-->
 
