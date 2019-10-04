@@ -309,6 +309,32 @@ li {
 }
 
 /*ALL MEDIUM THIRD ROW*/
+#appleIpadMD {
+    width: 100%;
+    border: 6px solid #E6E6E6;
+    border-radius: 2%;
+    margin: 0 5%;
+    padding: 0;
+}
+#macbookMD {
+    width: 100%;
+    border: 6px solid #E6E6E6;
+    border-radius: 2%;
+    margin: 0 5%;
+    padding: 0;
+}
+#manMD {
+    width: 100%;
+    border: 6px solid #E6E6E6;
+    border-radius: 2%;
+    margin: 0 10%;
+}
+#securityMD {
+    width: 80%;
+    border: 6px solid #E6E6E6;
+    border-radius: 2%;
+    margin: 0 10%;
+}
 
 .mobileMD {
     width: 20%;
@@ -324,6 +350,13 @@ li {
     margin: 4% 0;
     padding: 0;
 }
+#mobileMedium {
+    height: 100%;
+}
+#nibblerMedium {
+    padding-top: 9%;
+    height: 90%;
+}
 .googleMD {
     width: 20%;
     border: 1px solid #E6E6E6;
@@ -331,8 +364,81 @@ li {
     margin: 4% 0;
     padding: 0;
 }
+#tinyImageMediumBox {
+    padding-top: 1%;
+}
+#tinyImageMediumSpan {
+    height: 100%;
+}
 .tinyText {
-    font-size: 1.45em;
+    font-size: 1.30em;
     padding-left: 3%;
     margin: 4% 0;
+}
+#smallCircleMediumDiv1 {
+    width: 100%;
+    padding-right: 0;
+}
+#smallCircleMediumDiv2 {
+    width: 100%;
+    padding-right: 0;
+}
+#smallCircleMediumDiv3 {
+    width: 100%;
+    padding-right: 11%;
+}
+#smallCircleMediumDiv4 {
+    width: 100%;
+    padding-right: 11%;
+}
+#Col2Medium1 {
+    padding-right: 0;
+}
+#Col2Medium2 {
+    padding-right: 0;
+}
+#smallCirclesMedium1{
+    margin-top: 4px;
+}
+#smallCirclesMedium2 {
+    margin-top: 4px;
+}
+#smallCirclesMedium3{
+    margin-top: 4px;
+}
+#smallCirclesMedium4 {
+    margin-top: 4px;
+}
+#imageTextMD1 {
+    font-size: .7em;
+    margin: .25em 0 1.8em 0;
+}
+#imageTextMD2 {
+    font-size: .7em;
+    margin: .25em 0 1.8em 0;
+}
+#imageTextMD3 {
+    font-size: .8em;
+    margin: .25em 0 1.8em 0;
+}
+#imageTextMD4 {
+    font-size: .8em;
+    margin: .25em 0 1.8em 0;
+}
+.smallCircleMediumPad {
+    margin: 0 2px;
+}
+#featuredMD1 {
+    padding-left: 4%;
+    padding-right: 0;
+}
+#featuredMD2 {
+    padding-left: 4%;
+    padding-right: 0;
+}
+#featuredMD3 {
+    padding-left: 7%;
+}
+#featuredMD4 {
+    padding-left: 7%;
 }
