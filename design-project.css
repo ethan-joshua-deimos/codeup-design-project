@@ -307,3 +307,32 @@ li {
 #featuredSM4 {
     padding-left: 7%;
 }
+
+/*ALL MEDIUM THIRD ROW*/
+
+.mobileMD {
+    width: 20%;
+    border: 1px solid #E6E6E6;
+    border-radius: 2%;
+    margin: 4% 0;
+    padding: 0;
+}
+.headMD {
+    width: 20%;
+    border: 1px solid #E6E6E6;
+    border-radius: 2%;
+    margin: 4% 0;
+    padding: 0;
+}
+.googleMD {
+    width: 20%;
+    border: 1px solid #E6E6E6;
+    border-radius: 2%;
+    margin: 4% 0;
+    padding: 0;
+}
+.tinyText {
+    font-size: 1.45em;
+    padding-left: 3%;
+    margin: 4% 0;
+}
