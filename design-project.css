@@ -327,13 +327,15 @@ li {
     width: 100%;
     border: 6px solid #E6E6E6;
     border-radius: 2%;
-    margin: 0 10%;
+    margin: 0 5%;
+    padding: 0;
 }
 #securityMD {
-    width: 80%;
+    width: 100%;
     border: 6px solid #E6E6E6;
     border-radius: 2%;
-    margin: 0 10%;
+    margin: 0 5%;
+    padding: 0;
 }
 
 .mobileMD {
@@ -385,17 +387,18 @@ li {
 }
 #smallCircleMediumDiv3 {
     width: 100%;
-    padding-right: 11%;
+    padding-right: 0;
 }
 #smallCircleMediumDiv4 {
     width: 100%;
-    padding-right: 11%;
+    padding-right: 0;
 }
 #Col2Medium1 {
     padding-right: 0;
 }
 #Col2Medium2 {
     padding-right: 0;
+    height: 100%;
 }
 #smallCirclesMedium1{
     margin-top: 4px;
@@ -418,11 +421,11 @@ li {
     margin: .25em 0 1.8em 0;
 }
 #imageTextMD3 {
-    font-size: .8em;
+    font-size: .7em;
     margin: .25em 0 1.8em 0;
 }
 #imageTextMD4 {
-    font-size: .8em;
+    font-size: .7em;
     margin: .25em 0 1.8em 0;
 }
 .smallCircleMediumPad {
@@ -437,8 +440,23 @@ li {
     padding-right: 0;
 }
 #featuredMD3 {
-    padding-left: 7%;
+    padding-left: 4%;
+    padding-right: 0;
 }
 #featuredMD4 {
-    padding-left: 7%;
+    padding-left: 4%;
+    padding-right: 0;
+}
+#tweetParagraph {
+    font-size: .7em;
+}
+#tweetBox {
+    padding-top: 4%;
+}
+#lastTweetText {
+    padding: 0 0 0% 5%;
+    width: 100%;
+}
+#twitterLogo {
+    padding-top: 2%;
 }
