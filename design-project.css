@@ -183,10 +183,8 @@ li {
 
 /*THIRD ROW BELOW*/
 .rowThree {
-    margin: 0;
-}
-.rowThreeXS {
-    /*margin: 96px 10% 0 10%;*/
+    margin: 0 AUTO;
+    max-width: 960px;
 }
 .rowThreeSM {
     margin-top: 17px
@@ -459,4 +457,5 @@ li {
 }
 #twitterLogo {
     padding-top: 2%;
+    color: #1DA1F2;
 }
